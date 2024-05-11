@@ -52,13 +52,7 @@ namespace AFSDKFirstApplication
             //Exercise 4: Creating Element
             //https://docs.aveva.com/bundle/af-sdk/page/html/T_OSIsoft_AF_Asset_AFElement.htm
             Console.WriteLine("\nCreating Element");
-            myElements.Add(new AFElement());
-            myDB.ApplyChanges();
-            Console.WriteLine("Done Applying Changes");
-            myDB.CheckIn();
-            Console.WriteLine("Done Check In");
-            AFElement lastElement = myElements[myElements.Count - 1];
-            Console.WriteLine(lastElement);
+            //Code intentionally omitted and left as an exercise
 
             Console.ReadKey();
         }
