@@ -1,0 +1,26 @@
+# Exclude all bin and obj folders
+[Bb]in/
+[Oo]bj/
+
+# Exclude user-specific VS folders
+.vs/
+
+# Exclude all .suo files
+*.suo
+
+# Exclude all .user files
+*.user
+
+# Exclude SQL Server files if applicable
+*.mdf
+*.ldf
+*.ndf
+
+# Exclude temporary files
+*.tmp
+*.temp
+*.tlog
+
+# Exclude ReSharper and Rider directory if needed
+_ReSharper*/
+.idea/
